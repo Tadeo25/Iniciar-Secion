@@ -1,0 +1,37 @@
+body{
+    background:url(https://wallpaperaccess.com/full/1164874.jpg) ;
+    background-size: cover;
+}
+p{
+    color: rgb(10, 10, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0% 10%;
+}
+
+.container{
+    padding: 4%;
+    width: 580px;
+    background-color: rgba(128, 126, 126, 0.835);
+    border-radius: 10px;
+}
+.Button{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 750px){
+    body{
+        background:url(https://i.pinimg.com/originals/2e/76/7e/2e767ee4b8f6618ad4f2ceacce2fe762.jpg) ;
+        background-size: cover;
+    }
+    p{
+        color: rgb(10, 10, 10);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 0% 16%;
+    }
+    .container{
+        margin: 20% 0%;
+        padding: 7%;
+        width: 100%;
+    }
+}
